@@ -14,8 +14,8 @@ function entrarPasta(categorias) {
         // Adiciona evento de clique para exibir os itens corretos
         btn.addEventListener('click', function () {
           con.innerHTML = '';
-          let startIndex = (i - 1) * 4;
-          let endIndex = startIndex + 4;
+          let startIndex = (i - 1) * 5;
+          let endIndex = startIndex + 5;
 
           for (let j = startIndex; j < endIndex; j++) {
             const item = cozinha[j];
@@ -43,8 +43,8 @@ function entrarPasta(categorias) {
 
         btn.addEventListener('click', function () {
           con.innerHTML = ''
-          let startIndex = (i - 1) * 4;
-          let endIndex = startIndex + 4;
+          let startIndex = (i - 1) * 5;
+          let endIndex = startIndex + 5;
 
           for (let j = startIndex; j < endIndex; j++) {
             const item = sala[j];
@@ -73,8 +73,8 @@ function entrarPasta(categorias) {
 
         btn.addEventListener('click', () => {
           con.innerHTML = ''
-          let startIndex = (i - 1) * 4;
-          let endIndex = startIndex + 4;
+          let startIndex = (i - 1) * 5;
+          let endIndex = startIndex + 5;
 
           for (let j = startIndex; j < endIndex; j++) {
             const item = quarto[j];
@@ -104,8 +104,8 @@ function entrarPasta(categorias) {
 
         btn.addEventListener('click', () => {
           con.innerHTML = ''
-          let startIndex = (i - 1) * 4;
-          let endIndex = startIndex + 4;
+          let startIndex = (i - 1) * 5;
+          let endIndex = startIndex + 5;
 
           for (let j = startIndex; j < endIndex; j++) {
             const item = banheiro[j];
