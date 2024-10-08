@@ -69,3 +69,21 @@ const banheiro = [
  { id: 12, name: 'L', link: '' },
 
 ]
+
+const limpeza = [
+ { id: 1, name: 'Escova de Limpeza', link: 'https://s.shopee.com.br/7Keomow4pO' },
+ { id: 2, name: 'Esponja Mágica', link: 'https://s.shopee.com.br/7UyEz7vRUR' },
+ { id: 3, name: 'Escova De Silicone', link: 'https://s.shopee.com.br/701yOCxLVM' },
+ { id: 4, name: 'Mop Giratorio', link: 'https://s.shopee.com.br/7ALOaVwiAP' },
+ { id: 5, name: 'Robô Varredora', link: 'https://s.shopee.com.br/6fP7zaycBK' },
+
+ { id: 6, name: 'F', link: '' },
+ { id: 7, name: 'G', link: '' },
+ { id: 8, name: 'H', link: '' },
+
+ { id: 9, name: 'I', link: '' },
+ { id: 10, name: 'J', link: '' },
+ { id: 11, name: 'K', link: '' },
+ { id: 12, name: 'L', link: '' },
+
+]

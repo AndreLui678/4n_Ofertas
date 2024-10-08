@@ -126,6 +126,37 @@ function entrarPasta(categorias) {
       }
       break
 
+    case '5':
+      for (let i = 1; i <= 1; i++) {
+        const btn = document.createElement('button')
+        btn.classList.add('itensBtn')
+        btn.innerHTML = `LIMPEZA Pt ${i}`
+        con.appendChild(btn);
+
+        btn.addEventListener('click', () => {
+          con.innerHTML = ''
+          let startIndex = (i - 1) * 5;
+          let endIndex = startIndex + 5;
+
+          for (let j = startIndex; j < endIndex; j++) {
+            const item = limpeza[j];
+            const itemBtn = document.createElement('button');
+            itemBtn.classList.add('itensBtn');
+            itemBtn.innerHTML = item.name
+            itemBtn.setAttribute('data-id', item.id);
+
+            itemBtn.addEventListener('click', () => {
+              window.open(item.link)
+            })
+
+            con.appendChild(itemBtn)
+
+          }
+        })
+
+      }
+      break
+
     default:
       alert('não tem');
       break;
@@ -149,3 +180,4 @@ document.querySelectorAll('.linksBtn').forEach(function (btn) {
 document.querySelector('.voltarDiv').addEventListener('click', () => {
   location.reload()
 })
+
