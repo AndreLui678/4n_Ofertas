@@ -87,3 +87,21 @@ const limpeza = [
  { id: 12, name: 'L', link: '' },
 
 ]
+
+const modaMasculino = [
+ { id: 1, name: 'Camisa Gola Alta', link: 'https://s.shopee.com.br/3flktuB3B7' },
+ { id: 2, name: 'Camiseta Coração roxo', link: 'https://s.shopee.com.br/3VSKhbBgW6' },
+ { id: 3, name: 'Relógio', link: 'https://s.shopee.com.br/3L8uVICJr5' },
+ { id: 4, name: 'Colar de Aço', link: 'https://s.shopee.com.br/4VKrtR7sUK' },
+ { id: 5, name: 'Óculos Estilo Ponk', link: 'https://s.shopee.com.br/4L1Rh88VpJ' },
+
+ { id: 6, name: 'F', link: '' },
+ { id: 7, name: 'G', link: '' },
+ { id: 8, name: 'H', link: '' },
+
+ { id: 9, name: 'I', link: '' },
+ { id: 10, name: 'J', link: '' },
+ { id: 11, name: 'K', link: '' },
+ { id: 12, name: 'L', link: '' },
+
+]
